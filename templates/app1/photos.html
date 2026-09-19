@@ -1,0 +1,50 @@
+{% extends 'app1/home.html' %}
+{% load static %}
+
+{% block body_block %}
+
+<div class="container mt-4">
+    <h2 class="mb-4">PHOTOS</h2>
+
+    <div class="row g-3">
+
+        <div class="col-md-4">
+            <img src="{% static 'images/pt1.webp' %}" class="photos img-fluid">
+        </div>
+
+        <div class="col-md-4">
+            <img src="{% static 'images/pt2.jpg' %}" class="photos img-fluid">
+        </div>
+
+        <div class="col-md-4">
+            <img src="{% static 'images/pt3.jpg' %}" class="photos img-fluid">
+        </div>
+
+        <div class="col-md-4">
+            <img src="{% static 'images/pt4.avif' %}" class="photos img-fluid">
+        </div>
+
+        <div class="col-md-4">
+            <img src="{% static 'images/pt5.webp' %}" class="photos img-fluid">
+        </div>
+
+        <div class="col-md-4">
+            <img src="{% static 'images/pt6.webp' %}" class="photos img-fluid">
+        </div>
+
+        <div class="col-md-4">
+            <img src="{% static 'images/pt7.avif' %}" class="photos img-fluid">
+        </div>
+
+        <div class="col-md-4">
+            <img src="{% static 'images/pt8.jpg' %}" class="photos img-fluid">
+        </div>
+
+        <div class="col-md-4">
+            <img src="{% static 'images/pt9.webp' %}" class="photos img-fluid">
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

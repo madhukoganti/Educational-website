@@ -1,0 +1,130 @@
+```html
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Admin Data</title>
+
+    <style>
+        body {
+            background-color: #f2f6fc;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #1565c0;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            margin-bottom: 30px;
+        }
+
+        th {
+            background-color: #1565c0;
+            color: white;
+            padding: 12px;
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid #999;
+            padding: 12px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f7ff;
+        }
+
+        tr:hover {
+            background-color: #e3f2fd;
+        }
+
+        /* Parent table message column */
+        .parent-message {
+            width: 35%;
+            text-align: left;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        /* Contact table message column */
+        .contact-message {
+            width: 50%;
+            text-align: left;
+            white-space: normal;
+            word-wrap: break-word;
+        }
+
+        textarea {
+            width: 95%;
+            min-height: 100px;
+            padding: 10px;
+            border: 1px solid #90caf9;
+            border-radius: 5px;
+            resize: vertical;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>PARENT DATA</h1>
+
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>PHONE</th>
+            <th>EMAIL</th>
+            <th>SNAME</th>
+            <th>MSG</th>
+        </tr>
+
+        {% for i in parents %}
+        <tr>
+            <td>{{ i.NAME }}</td>
+            <td>{{ i.PHONE }}</td>
+            <td>{{ i.EMAIL }}</td>
+            <td>{{ i.SNAME }}</td>
+            <td class="parent-message">{{ i.MSG }}</td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+
+    <h1>CONTACT DATA</h1>
+
+    <table>
+        <tr>
+            <th>NAME</th>
+            <th>PHONE</th>
+            <th>EMAIL</th>
+            <th>MSG</th>
+        </tr>
+
+        {% for i in contacts %}
+        <tr>
+            <td>{{ i.NAME }}</td>
+            <td>{{ i.PHONE }}</td>
+            <td>{{ i.EMAIL }}</td>
+            <td class="contact-message">
+                <textarea rows="5" readonly>{{ i.MSG }}</textarea>
+            </td>
+        </tr>
+        {% endfor %}
+
+    </table>
+
+</body>
+</html>
+
