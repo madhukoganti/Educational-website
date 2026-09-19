@@ -1,12 +1,31 @@
-\# Educational Website
+# Educational Website
 
 
 
 A Django-based educational website designed to provide students, parents, and visitors with information about classes, school activities, latest news, gallery, and contact/registration services.
 
 
+## Screenshots
 
-\## Project Overview
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+### Parent Registration Form
+
+![Parent Registration Form](screenshots/form.png)
+
+### Contact Page
+
+![Contact Page](screenshots/contact.png)
+
+### Admin Page
+
+![Admin Page](screenshots/admin.png)
+
+
+
+## Project Overview
 
 
 
@@ -18,59 +37,59 @@ The website contains different sections for displaying educational information a
 
 
 
-\## Features
+## Features
 
 
 
-\- Home page
+- Home page
 
-\- About page
+- About page
 
-\- Classes section
+- Classes section
 
-\- Class-wise pages
+- Class-wise pages
 
-\- Gallery
+- Gallery
 
-\- Photos and videos
+- Photos and videos
 
-\- Latest News section
+- Latest News section
 
-\- Parent Registration form
+- Parent Registration form
 
-\- Contact form
+- Contact form
 
-\- Admin data page
+- Admin data page
 
-\- Django admin panel
+- Django admin panel
 
-\- Database-backed form submissions
+- Database-backed form submissions
 
-\- Separate handling of Parent Registration and Contact information
-
-
-
-\## Technologies Used
+- Separate handling of Parent Registration and Contact information
 
 
 
-\- Python
-
-\- Django
-
-\- HTML
-
-\- CSS
-
-\- SQLite
-
-\- Git
-
-\- GitHub
+## Technologies Used
 
 
 
-\## Project Structure
+- Python
+
+- Django
+
+- HTML
+
+- CSS
+
+- SQLite
+
+- Git
+
+- GitHub
+
+
+
+## Project Structure
 
 
 
@@ -134,11 +153,11 @@ Educational-website/
 
 
 
-\## Main Functionalities
+## Main Functionalities
 
 
 
-\### Parent Registration
+### Parent Registration
 
 
 
@@ -146,7 +165,7 @@ Parents can submit their details through the Parent Registration form. The submi
 
 
 
-\### Contact Form
+### Contact Form
 
 
 
@@ -158,7 +177,7 @@ The Contact functionality is maintained separately from Parent Registration.
 
 
 
-\### Educational Pages
+### Educational Pages
 
 
 
@@ -166,27 +185,27 @@ The website provides dedicated pages for:
 
 
 
-\- Classes
+- Classes
 
-\- Class 8
+- Class 8
 
-\- Class 9
+- Class 9
 
-\- Class 10
+- Class 10
 
-\- Gallery
+- Gallery
 
-\- Photos
+- Photos
 
-\- Videos
+- Videos
 
-\- Latest News
+- Latest News
 
-\- About
+- About
 
 
 
-\## Django Admin
+## Django Admin
 
 
 
@@ -198,11 +217,11 @@ An administrator can access the Django admin interface and manage registered inf
 
 
 
-\## How to Run the Project
+## How to Run the Project
 
 
 
-\### 1. Clone the repository
+### 1. Clone the repository
 
 
 
@@ -214,7 +233,7 @@ git clone https://github.com/madhukoganti/Educational-website.git
 
 
 
-\### 2. Navigate to the project directory
+### 2. Navigate to the project directory
 
 
 
@@ -226,7 +245,7 @@ cd Educational-website
 
 
 
-\### 3. Create a virtual environment
+### 3. Create a virtual environment
 
 
 
@@ -238,23 +257,23 @@ python -m venv venv
 
 
 
-\### 4. Activate the virtual environment
+### 4. Activate the virtual environment
 
 
 
-\*\*Windows:\*\*
+**Windows:**
 
 
 
 ```powershell
 
-venv\\Scripts\\activate
+venv\Scripts\activate
 
 ```
 
 
 
-\### 5. Install Django
+### 5. Install Django
 
 
 
@@ -266,7 +285,7 @@ pip install django
 
 
 
-\### 6. Apply migrations
+### 6. Apply migrations
 
 
 
@@ -278,7 +297,7 @@ python manage.py migrate
 
 
 
-\### 7. Start the development server
+### 7. Start the development server
 
 
 
@@ -290,7 +309,7 @@ python manage.py runserver
 
 
 
-\### 8. Open the website
+### 8. Open the website
 
 
 
@@ -306,33 +325,33 @@ http://127.0.0.1:8000/
 
 
 
-\## Future Improvements
+## Future Improvements
 
 
 
-\- Deploy the website to a cloud hosting platform
+- Deploy the website to a cloud hosting platform
 
-\- Improve responsive design for mobile devices
+- Improve responsive design for mobile devices
 
-\- Add user authentication
+- Add user authentication
 
-\- Add a dedicated student portal
+- Add a dedicated student portal
 
-\- Add online admission functionality
+- Add online admission functionality
 
-\- Add search functionality
+- Add search functionality
 
-\- Improve admin dashboard
+- Improve admin dashboard
 
-\- Add automated testing
-
-
-
-\## Author
+- Add automated testing
 
 
 
-\*\*Madhulatha\*\*
+## Author
+
+
+
+**Madhulatha**
 
 
 
